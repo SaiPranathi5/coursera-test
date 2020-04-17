@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our menu</title>
+	<link rel="stylesheet" type="text/css" href="module2.css">
+	<style>
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 33.33%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width:768px) and (max-width:991px ){
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+}
+/*small devices*/
+@media (max-width: 767px) {
+	.col-sm-1, .col-md-2, .col-md-3{
+		float: left;
+	}
+		.col-md-1 {
+    width: 100%;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+
+}
+</style>
+
+</head>
+<body>
+	<h1>Our menu</h1>
+	<div class="row">
+		<section class="col-lg-1 col-md-1 col-sm-1">
+			<h2 style="background-color: #8B0000;">Chicken</h2>
+			<p>The reason chicken is always included in a healthy diet is because it is basically a lean meat, which means it doesn't have much fat.</p>
+		</section>
+		<section class="col-lg-2 col-md-2 col-sm-2">
+			<h2 style="background-color: #FFB6C1;"> Beef </h2>
+			<p>The reason chicken is always included in a healthy diet is because it is basically a lean meat, which means it doesn't have much fat. So, eating chicken regularly can actually help you lose weight in a healthy way.</p>
+		</section>
+		<section class="col-lg-3 col-md-3 col-sm-3">
+			<h2 style="background-color: #FFFF66;"> Sushi</h2>
+			<p>The reason chicken is always included in a healthy diet is because it is basically a lean meat, which means it doesn't have much fat. So, eating chicken regularly can actually help you lose weight in a healthy way. Apart from protein, chicken is also chock full of calcium and phosphorous</p>
+		</section>
+	</div>
+</body>
+</html>
