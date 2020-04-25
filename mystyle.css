@@ -2,12 +2,13 @@
     background-color: pink;
     
 }
-<<<<<<< HEAD
+
 body{
     background-color: lightblue;
+    padding: auto;
+
 }
-=======
->>>>>>> fb34de4e7d738042eb94749ce641f7bd9f2d6449
+
 .text-center{
     font-size: 32px;
     font-weight: bold;
